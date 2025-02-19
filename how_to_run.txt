@@ -1,9 +1,0 @@
-for increament :
-
-npx hardhat run scripts/increment.js --network nexus
-
-for Deploy and Verify :
-
-npx hardhat run scripts/deployAndVerify.js --network nexus
-
-
