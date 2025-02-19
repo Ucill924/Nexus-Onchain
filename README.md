@@ -11,3 +11,19 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
+How to run 
+
+Set privatekey in hardhat.config.js
+
+for increament :
+
+```shell
+npx hardhat run scripts/increment.js --network nexus
+```
+for Deploy and Verify :
+
+```shell
+npx hardhat run scripts/deployAndVerify.js --network nexus
+
+```
