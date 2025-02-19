@@ -19,7 +19,7 @@ Set privatekey in hardhat.config.js
 for increament :
 
 ```shell
-npx hardhat run scripts/increment.js --network nexus
+npx hardhat run scripts/increament.js --network nexus
 ```
 for Deploy and Verify :
 
